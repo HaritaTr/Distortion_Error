@@ -75,21 +75,21 @@ int main()
 	Δrp = Δr7 + (((Δr8 - Δr7) * (rp - r7)) / (r8 - r7));
 	Δrp = Δr8 + (((Δr9 - Δr8) * (rp - r8)) / (r9 - r8)); */
 	Drp1 = Dr1 + (((Dr2 - Dr1) * (rp - r1)) / (r2 - r1));
-	//printf("Drp1 ortalama değeri: %f\n", Drp1);
+	//printf("Drp1 değeri: %f\n", Drp1);
 	Drp2 = Dr2 + (((Dr3 - Dr2) * (rp - r2)) / (r3 - r2));
-	//printf("Drp2 ortalama değeri: %f\n", Drp2);
+	//printf("Drp2 değeri: %f\n", Drp2);
 	Drp3 = Dr3 + (((Dr4 - Dr3) * (rp - r3)) / (r4 - r3));
-	//printf("Drp3 ortalama değeri: %f\n", Drp3);
+	//printf("Drp3 değeri: %f\n", Drp3);
 	Drp4 = Dr4 + (((Dr5 - Dr4) * (rp - r4)) / (r5 - r4));
-	//printf("Drp4 ortalama değeri: %f\n", Drp4);
+	//printf("Drp4 değeri: %f\n", Drp4);
 	Drp5 = Dr5 + (((Dr6 - Dr5) * (rp - r5)) / (r6 - r5));
-	//printf("Drp5 ortalama değeri: %f\n", Drp5);
+	//printf("Drp5 değeri: %f\n", Drp5);
 	Drp6 = Dr6 + (((Dr7 - Dr6) * (rp - r6)) / (r7 - r6));
-	printf("Drp6 ortalama değeri: %f\n", Drp6);
+	printf("Drp6 değeri: %f\n", Drp6);
 	Drp7 = Dr7 + (((Dr8 - Dr7) * (rp - r7)) / (r8 - r7));
-	//printf("Drp7 ortalama değeri: %f\n", Drp7);
+	//printf("Drp7 değeri: %f\n", Drp7);
 	Drp8 = Dr8 + (((Dr9 - Dr8) * (rp - r8)) / (r9 - r8));
-	//printf("Drp8 ortalama değeri: %f\n", Drp8);
+	//printf("Drp8 değeri: %f\n", Drp8);
 	/* Düzeltme getirilen fotoğraf koordinatları;
 	x_ξp = xξp * (1 + (Δrp / rp));
 	y_ηp = yηp * (1 + (Δrp / rp)); */
