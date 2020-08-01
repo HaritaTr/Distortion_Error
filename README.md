@@ -14,6 +14,7 @@ Yazılım çalıştırıldığında;
 + İzdüşüm merkezinin koordinatları;xξo, yηo
 + Kamera kalibrasyon raporu, çapsal uzaklık değerleri; r1, r2, r3, r4, r5, r6, r7, r8, r9
 + Kamera kalibrasyon raporu, distorsiyon hata değerleri; Δr1,  Δr2, Δr3,  Δr4, Δr5 , Δr6 , Δr7 ,Δr8 , Δr9
+
 Yukarıdaki değerlerin girilmesi gerekmektedir.
 
 Hesaplanan;
