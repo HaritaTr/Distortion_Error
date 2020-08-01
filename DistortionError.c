@@ -11,7 +11,7 @@ int main()
 
 		// Bilinenleri isteyelim.
 	// Ölçülen fotoğraf koordinatları: xξp, yηp
-	printf("xξp değerini giriniz: ");
+	printf("xξp (mm) değerini giriniz: ");
 	scanf("%lf", &xEp);
 	printf("yηp değerini giriniz: ");
 	scanf("%lf", &yNp);
@@ -21,42 +21,42 @@ int main()
 	printf("yηo değerini giriniz: ");
 	scanf("%lf", &yNo);
 	// Kamera kalibrasyon raporu, çapsal uzaklık değerleri; r1, r2, r3, r4, r5, r6, r7, r8, r9
-	printf("r1 değerini giriniz: ");
+	printf("r1 (mm) değerini giriniz: ");
 	scanf("%lf", &r1);
-	printf("r2 değerini giriniz: ");
+	printf("r2 (mm) değerini giriniz: ");
 	scanf("%lf", &r2);
-	printf("r3 değerini giriniz: ");
+	printf("r3 (mm) değerini giriniz: ");
 	scanf("%lf", &r3);
-	printf("r4 değerini giriniz: ");
+	printf("r4 (mm) değerini giriniz: ");
 	scanf("%lf", &r4);
-	printf("r5 değerini giriniz: ");
+	printf("r5 (mm) değerini giriniz: ");
 	scanf("%lf", &r5);
-	printf("r6 değerini giriniz: ");
+	printf("r6 (mm) değerini giriniz: ");
 	scanf("%lf", &r6);
-	printf("r7 değerini giriniz: ");
+	printf("r7 (mm) değerini giriniz: ");
 	scanf("%lf", &r7);
-	printf("r8 değerini giriniz: ");
+	printf("r8 (mm) değerini giriniz: ");
 	scanf("%lf", &r8);
-	printf("r9 değerini giriniz: ");
+	printf("r9 (mm) değerini giriniz: ");
 	scanf("%lf", &r9);
 	// Kamera kalibrasyon raporu, distorsiyon hata değerleri; Δr1, Δr2, Δr3, Δr4, Δr5 , Δr6 , Δr7 ,Δr8 , Δr9
-	printf("Dr1 değerini giriniz: ");
+	printf("Dr1 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr1);
-	printf("Dr2 değerini giriniz: ");
+	printf("Dr2 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr2);
-	printf("Dr3 değerini giriniz: ");
+	printf("Dr3 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr3);
-	printf("Dr4 değerini giriniz: ");
+	printf("Dr4 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr4);
-	printf("Dr5 değerini giriniz: ");
+	printf("Dr5 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr5);
-	printf("Dr6 değerini giriniz: ");
+	printf("Dr6 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr6);
-	printf("Dr7 değerini giriniz: ");
+	printf("Dr7 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr7);
-	printf("Dr8 değerini giriniz: ");
+	printf("Dr8 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr8);
-	printf("Dr9 değerini giriniz: ");
+	printf("Dr9 (µm) değerini giriniz: ");
 	scanf("%lf", &Dr9);
 
 		// Bilinmeyenlerin hesaplanması;
