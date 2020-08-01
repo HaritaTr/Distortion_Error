@@ -7,7 +7,7 @@ int main()
 	setlocale(LC_ALL, "Turkish");
 
 	double xEp, yNp, xEo, yNo, r1, r2, r3, r4, r5, r6, r7, r8, r9, Dr1, Dr2, Dr3, Dr4, Dr5, Dr6, Dr7, Dr8, Dr9;
-	double rp, Drp, x_Ep, y_Np;
+	double rp, Drp1, Drp2, Drp3, Drp4, Drp5, Drp6, Drp7, Drp8, Drp, x_Ep, y_Np;
 
 		// Bilinenleri isteyelim.
 	// Ölçülen fotoğraf koordinatları: xξp, yηp
@@ -74,15 +74,24 @@ int main()
 	Δrp = Δr6 + (((Δr7 - Δr6) * (rp - r6)) / (r7 - r6));
 	Δrp = Δr7 + (((Δr8 - Δr7) * (rp - r7)) / (r8 - r7));
 	Δrp = Δr8 + (((Δr9 - Δr8) * (rp - r8)) / (r9 - r8)); */
-	Drp = Dr1 + (((Dr2 - Dr1) * (rp - r1)) / (r2 - r1));
-	Drp = Dr2 + (((Dr3 - Dr2) * (rp - r2)) / (r3 - r2));
-	Drp = Dr3 + (((Dr4 - Dr3) * (rp - r3)) / (r4 - r3));
-	Drp = Dr4 + (((Dr5 - Dr4) * (rp - r4)) / (r5 - r4));
-	Drp = Dr5 + (((Dr6 - Dr5) * (rp - r5)) / (r6 - r5));
-	Drp = Dr6 + (((Dr7 - Dr6) * (rp - r6)) / (r7 - r6));
-	Drp = Dr7 + (((Dr8 - Dr7) * (rp - r7)) / (r8 - r7));
-	Drp = Dr8 + (((Dr9 - Dr8) * (rp - r8)) / (r9 - r8));
-	printf("Δrp değeri: %f\n", Drp);
+	Drp1 = Dr1 + (((Dr2 - Dr1) * (rp - r1)) / (r2 - r1));
+	printf("Drp1 ortalama değeri: %f\n", Drp1);
+	Drp2 = Dr2 + (((Dr3 - Dr2) * (rp - r2)) / (r3 - r2));
+	printf("Drp2 ortalama değeri: %f\n", Drp2);
+	Drp3 = Dr3 + (((Dr4 - Dr3) * (rp - r3)) / (r4 - r3));
+	printf("Drp3 ortalama değeri: %f\n", Drp3);
+	Drp4 = Dr4 + (((Dr5 - Dr4) * (rp - r4)) / (r5 - r4));
+	printf("Drp4 ortalama değeri: %f\n", Drp4);
+	Drp5 = Dr5 + (((Dr6 - Dr5) * (rp - r5)) / (r6 - r5));
+	printf("Drp5 ortalama değeri: %f\n", Drp5);
+	Drp6 = Dr6 + (((Dr7 - Dr6) * (rp - r6)) / (r7 - r6));
+	printf("Drp6 ortalama değeri: %f\n", Drp6);
+	Drp7 = Dr7 + (((Dr8 - Dr7) * (rp - r7)) / (r8 - r7));
+	printf("Drp7 ortalama değeri: %f\n", Drp7);
+	Drp8 = Dr8 + (((Dr9 - Dr8) * (rp - r8)) / (r9 - r8));
+	printf("Drp8 ortalama değeri: %f\n", Drp8);
+	Drp = (Drp1 + Drp2 + Drp3 + Drp4 + Drp5 + Drp6 + Drp7 + Drp8) / 8;
+	printf("Δrp ortalama değeri: %f\n", Drp);
 
 	/* Düzeltme getirilen fotoğraf koordinatları;
 	x_ξp = xξp * (1 + (Δrp / rp));
