@@ -92,7 +92,6 @@ int main()
 	printf("Drp8 ortalama değeri: %f\n", Drp8);
 	Drp = (Drp1 + Drp2 + Drp3 + Drp4 + Drp5 + Drp6 + Drp7 + Drp8) / 8;
 	printf("Δrp ortalama değeri: %f\n", Drp);
-
 	/* Düzeltme getirilen fotoğraf koordinatları;
 	x_ξp = xξp * (1 + (Δrp / rp));
 	y_ηp = yηp * (1 + (Δrp / rp)); */
